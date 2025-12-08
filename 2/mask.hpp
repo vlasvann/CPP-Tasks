@@ -56,7 +56,7 @@ public:
     // constexpr bool at(size_t index) const
     // {
     //     if (index >= N)
-    //         std::throw_out_of_range(out_of_range("Mask index out of range"));
+    //         throw std::out_of_range("Mask index out of range");
     //     return __data_[index];
     // }
 
